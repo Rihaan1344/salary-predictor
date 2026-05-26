@@ -47,5 +47,5 @@ if submitted:
                     'certifications'],
                     index = [0])
     salary = model.predict(info)
-    st.write(f"Your predicted salary is {salary}")
+    st.write(f"Your predicted salary is {float(salary[0])}")
     st.balloons()
